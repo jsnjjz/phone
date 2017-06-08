@@ -1,0 +1,219 @@
+$r:21;
+/*  header start   */
+.header {
+	background: #f8f8f8;
+	height: 83rem/$r;
+	width: 630rem/$r;
+	text-align: center;
+	.prev {
+		float: left;
+		font-size: 24rem/$r;
+		color: #666;
+		width: 60rem/$r;
+		height: 57rem/$r;
+		text-align: center;
+		line-height: 57rem/$r;
+		margin-top: 12rem/$r;
+	}
+	span {
+		font-size: 30rem/$r;
+		text-align: center;
+		line-height: 83rem/$r;
+	}
+	.share {
+		float: right;
+		font-size: 24rem/$r;
+		color: #666;
+		width: 60rem/$r;
+		height: 57rem/$r;
+		text-align: center;
+		line-height: 57rem/$r;
+		margin-top: 12rem/$r;
+	}
+}
+
+/*  main start   */
+.main-bg {
+	position: relative;
+	width: 630rem/$r;
+	height: 768rem/$r;
+	background: url(../img/superman.png) no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	.logo {
+		display: block;
+		width: 204rem/$r;
+		height: 57rem/$r;
+		background: url(../img/logo.png) no-repeat; 
+		background-size: cover;
+		margin-left: 14rem/$r;
+		margin-top: 20rem/$r;
+	}
+	.main-bottom-bg {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 630rem/$r;
+		height: 203rem/$r;
+		background: url(../img/ellipse.png) no-repeat;
+		background-size: cover;
+	}
+	.btn {
+		position: absolute;
+		left: 77rem/$r;
+		bottom: 0;
+		width: 476rem/$r;
+		height: 107rem/$r;
+		border-radius: 24rem/$r;
+		background: #158805;
+		span {
+			display: block;
+			width: 476rem/$r;
+			height: 98rem/$r;
+			border-radius: 17rem/$r;
+			background: #2fc21f;
+			text-align: center;
+			line-height: 107rem/$r;
+			font-size: 50rem/$r;
+			color: #fff;
+		}
+	}
+}
+
+/*  centent start   */
+.centent {
+	position: relative;
+	height: 1238rem/$r;
+	width: 630rem/$r;
+	background: #fcca05;
+	
+	.centent-list {
+		position: absolute;
+		top: 151rem/$r;
+		left: 25rem/$r;
+		width: 582rem/$r;
+		height: 602rem/$r;
+		background: #fedc5d;
+		border-radius: 17rem/$r;
+		.sub-centent {
+			position: relative;
+			width: 547rem/$r;
+			height: 167rem/$r;
+			background: #fff6d8;
+			border-radius: 17rem/$r;
+			margin: 20rem/$r 17rem/$r 25rem/$r;
+			overflow: hidden;
+			.red-packet {
+				float: left;
+				width: 102rem/$r;
+				height: 113rem/$r;
+				background: url(../img/red-packet.png);
+				background-size: cover;
+				margin-top: 29rem/$r;
+				margin-left: 19rem/$r;
+			}
+			.txt { 
+				float: left;
+				margin-left: 36rem/$r;
+				margin-top: 29rem/$r;
+			  color: #3a230a;
+				font-size: 24rem/$r;
+				span {
+					font-size: 28rem/$r;
+				}
+				a {
+					font-size: 24rem/$r;
+					color: #ef0712;
+				}
+				strong {
+					position: absolute;
+					right: 0;
+					bottom: 0;
+					width: 125rem/$r;
+					height: 131rem/$r;
+					background: url(../img/seal.png);
+					background-size: cover;
+				}
+			}
+		}
+		
+}
+	.explain {
+		position: absolute;
+		left: 25rem/$r;
+		bottom: 19rem/$r;
+		width: 585rem/$r;
+		height: 313rem/$r;
+		background: #fedc5d;
+		border-radius: 18rem/$r;
+		.explain-list {
+			margin-top: 19rem/$r;
+			margin-left: 19rem/$r;
+			width: 547rem/$r;
+			height: 266rem/$r;
+			background: #fff6d8;
+			border-radius: 18rem/$r;
+			font-size: 29rem/$r;
+			.li-fir {
+				margin-top: 29rem/$r;
+			}
+			.li-pub {
+				margin-top: 18rem/$r;
+				i {
+					margin-left: 62rem/$r;
+				}
+			}
+			span {
+				float: left;
+				margin-left: 19rem/$r;
+				margin-right: 17rem/$r;
+				width: 36rem/$r;
+				height: 36rem/$r;
+				background: #eba601;
+				border-radius: 18rem/$r; 
+				text-align: center;
+				line-height: 36rem/$r;
+				font-size: 22rem/$r;
+			}
+		}
+	}
+}
+/*  centent >> flag-public start   */
+.flag {
+	width: 241rem/$r;
+	height: 96rem/$r;
+	background: url(../img/flag.png);
+	background-size: cover;
+	font-size: 32rem/$r;
+	color: #fff;
+	overflow: hidden;
+	span {
+		float: left;
+		margin-top: 8rem/$r;
+		margin-left: 57rem/$r;
+	}
+}
+.fir-flag {
+	position: absolute;
+	left: 10rem/$r;
+	top: 39rem/$r;
+}
+.sec-flag {
+	position: absolute;
+	left: 11rem/$r;
+	bottom:357rem/$r;
+}
+
+/*     footer    start      */
+.footer {
+	width: 630rem/$r;
+	height: 54rem/$r;
+	background: #eba601;
+	text-align: center;
+	line-height: 54rem/$r;
+	span {
+		font-size: 25rem/$r;
+		color: #fedc5d;
+	}
+}
+
